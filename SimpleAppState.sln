@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAppState", "src\SimpleAppState\SimpleAppState.csproj", "{1A486ADB-AC7C-4DD9-A217-39F45C128B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAppState", "src\SimpleAppState\SimpleAppState.csproj", "{1A486ADB-AC7C-4DD9-A217-39F45C128B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAppState.Sample", "sample\SimpleAppState.Sample\SimpleAppState.Sample.csproj", "{CA492232-46F3-4E62-94BC-97776DBFC08D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1A486ADB-AC7C-4DD9-A217-39F45C128B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A486ADB-AC7C-4DD9-A217-39F45C128B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A486ADB-AC7C-4DD9-A217-39F45C128B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA492232-46F3-4E62-94BC-97776DBFC08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA492232-46F3-4E62-94BC-97776DBFC08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA492232-46F3-4E62-94BC-97776DBFC08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA492232-46F3-4E62-94BC-97776DBFC08D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

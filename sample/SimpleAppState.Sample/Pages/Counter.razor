@@ -1,0 +1,14 @@
+﻿@page "/"
+@inherits StateComponentBase
+@inject ICounterState CounterState
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @CounterState.Count</p>
+
+<div class="d-flex flex-row gap-2">
+    <button class="btn btn-primary" @onclick="() => CounterState.IncrementCount()">Increment</button>
+    <button class="btn btn-primary" @onclick="() => CounterState.DecrementCount()">Decrement</button>
+</div>
